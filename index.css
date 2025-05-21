@@ -1,7 +1,21 @@
 .top-bar ul{
+    text-decoration: double;
+    text-shadow: 2rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
     list-style: none;
+}
+.hero  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+.hero h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
 }
