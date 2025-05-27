@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="index.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
     <title>Mateus de Santana Pereira | Front-End Developer</title>
   </head>
   <body>
@@ -18,11 +20,75 @@
     </nav>
     <header class="hero">
       <h1 class="name">Mateus de Santana Pereira</h1>
-      <h2>
-        A passionate Computer Science student looking for meaningful challenges
-        and a chance to fully dedicate himself to impactful project
-      </h2>
+      <section class="projects">
+        <h2>Meus Projetos</h2>
+        <div class="project-list">
+          <div class="project-card" data-aos="fade-up">
+            <h3>Sistema de Cadastro e Autenticação com Keycloak</h3>
+            <p>
+              Projeto com integração entre Next.js e Keycloak utilizando Auth.js
+              e Material UI para tela de login customizada.
+            </p>
+            <a
+              href="https://github.com/Minf-afk/keycloak-custom-login"
+              target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <h3>Automação de Planilhas e E-mails com Google Apps Script</h3>
+            <p>
+              Solução completa para leitura de dados, envio automático de
+              e-mails e consolidação de planilhas no Google Sheets.
+            </p>
+            <a
+              href="https://github.com/Minf-afk/google-apps-script-automation"
+              target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <h3>Chatbot com OpenAI + Flask + React</h3>
+            <p>
+              Chatbot inteligente desenvolvido para responder clientes com
+              integração à API da OpenAI e interface em React.
+            </p>
+            <a
+              href="https://github.com/Minf-afk/chatbot-flask-openai"
+              target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <h3>Portfólio Pessoal em HTML/CSS</h3>
+            <p>
+              Site pessoal responsivo com seções de projetos, contatos e
+              currículo, desenvolvido com HTML puro e CSS.
+            </p>
+            <a href="https://github.com/Minf-afk/portfolio" target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <h3>Dashboard Logístico Automatizado</h3>
+            <p>
+              Ferramenta que cria e envia dashboards de logística
+              automaticamente com base em planilhas do Google.
+            </p>
+            <a
+              href="https://github.com/Minf-afk/dashboard-automation"
+              target="_blank"
+              >Ver no GitHub</a
+            >
+          </div>
+        </div>
+      </section>
     </header>
-    <main></main>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
